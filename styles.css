@@ -1,0 +1,27 @@
+#navbar {
+    background-color: rgba(17, 33, 59);
+}
+
+#boxes {
+    background-color: rgba(255, 145, 40);
+}
+
+#tvl-btn {
+    background-color: #F87A14;
+    color: black;
+}
+
+#abm-btn {
+    background-color: #FFDE59;
+    color: black;
+}
+
+#humss-btn {
+    background-color: #3EAED4;
+    color: black;
+}
+
+#stem-btn {
+    background-color: #2EAF90;
+    color: black;
+}
