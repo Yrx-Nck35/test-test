@@ -1,1 +1,55 @@
 @import url();
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-box {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+.form-box.active {
+    display: block;
+}
+
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    width: 100%;
+    font-weight: 500;
+    padding: 0.5rem;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+    color: #fff;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+
+.form-box .h2 {
+    margin-bottom: 1.5rem;
+}
+
+p a {
+    text-decoration: none;
+    color: #007bff;
+}   
+
+p a:hover {
+    text-decoration: underline;
+}
