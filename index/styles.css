@@ -1,0 +1,57 @@
+#navbar {
+    background-color: rgba(17, 33, 59);
+}
+
+#hero {
+    background-image: url('img/backgournd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#containir-hirp {
+    background-color: rgba(255, 255, 255, .75);
+    
+}
+
+#boxes {
+    background-color: rgba(255, 145, 40);
+}
+
+#tvl-btn {
+    background-color: #F87A14;
+    color: black;
+}
+
+#abm-btn {
+    background-color: #FFDE59;
+    color: black;
+}
+
+#humss-btn {
+    background-color: #3EAED4;
+    color: black;
+}
+
+#stem-btn {
+    background-color: #2EAF90;
+    color: black;
+}
+
+
+#boxes .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#boxes .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.zoom-btn {
+  transition: transform 0.5s ease;
+}
+
+.zoom-btn:hover {
+  transform: scale(1.09);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
