@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CDLSHS Enrollment Form</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+  <h1>CDLSHS Enrollment System</h1>
+
+  <form id="enrollmentForm">
+    <!-- STEP 1: Registration -->
+    <div class="form-step active">
+      <h2>Step 1: Learner Information</h2>
+      <label>Last Name</label>
+      <input type="text" required>
+      <label>First Name</label>
+      <input type="text" required>
+      <label>Middle Name</label>
+      <input type="text" required>
+      <label>Extensiom Name e.g. Jr., III (if Applicable)</label>
+      <input type="text">
+      <label>Email</label>
+      <input type="email" name="email" required>
+      <div class="btn-group">
+        <button type="button" id="next1">Next</button>
+      </div>
+    </div>
+
+    <!-- STEP 2: Login -->
+    <div class="form-step">
+      <h2>Step 2</h2>
+      <label></label>
+      <input type="text" required>
+      <label>Password</label>
+      <input type="password" required>
+      <div class="btn-group">
+        <button type="button" id="prev2">Back</button>
+        <button type="button" id="next2">Next</button>
+      </div>
+    </div>
+
+    <!-- STEP 3: Enrollment -->
+    <div class="form-step">
+      <h2>Step 3: Enrollment</h2>
+      <label>Grade Level</label>
+      <select required>
+        <option value="">Select Grade</option>
+        <option>11</option>
+        <option>12</option>
+      </select>
+
+      <label>Strand</label>
+      <input type="text" required>
+
+      <label>Preferred Section</label>
+      <input type="text" required>
+
+      <div class="btn-group">
+        <button type="button" id="prev3">Back</button>
+        <button type="button" id="next3">Next</button>
+      </div>
+    </div>
+
+    <!-- STEP 4: Upload Documents -->
+    <div class="form-step">
+      <h2>Step 4: Upload Documents</h2>
+      <label>Form 138</label>
+      <input type="file" accept=".pdf,.jpg,.png" required>
+      <label>Birth Certificate</label>
+      <input type="file" accept=".pdf,.jpg,.png" required>
+      <div class="btn-group">
+        <button type="button" id="prev4">Back</button>
+        <button type="button" id="next4">Next</button>
+      </div>
+    </div>
+
+    <!-- STEP 5: Confirmation -->
+    <div class="form-step">
+      <h2>Step 5: Review & Submit</h2>
+      <p>Please confirm that all information and documents are correct before submitting.</p>
+      <div class="btn-group">
+        <button type="button" id="prev5">Back</button>
+        <button type="submit">Submit</button>
+      </div>
+    </div>
+
+    <!-- STEP 6: Success -->
+    <div class="form-step">
+      <h2 class="success-message">✅ Registration Successful!</h2>
+      <p>Your enrollment has been submitted for verification. Please wait for admin approval.</p>
+    </div>
+  </form>
+
+  <script src="script2.js"></script>
+</body>
+</html>
